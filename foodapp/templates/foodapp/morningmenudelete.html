@@ -1,0 +1,15 @@
+<style>
+    .df {
+        color:crimson;
+        text-decoration-style: solid;
+    }
+</style>
+<h3 class="df">Are you sure you want to delete? </h3>
+
+<form method="POST">
+{% csrf_token %}
+<h3>{{fademu.food_type}} | N{{fademu.price}}</h3>
+<input type="submit", value="Yes, Delete">
+</form>
+
+<a href="{% url 'dashboardupdate' %}"><h4>Back to Dashboard</h4></a>

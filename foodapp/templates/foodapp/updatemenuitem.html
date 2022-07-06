@@ -1,0 +1,23 @@
+
+<h3>You can update existing menu for here</h3>
+
+<form method="POST">
+    {% csrf_token %}
+
+    {{don.food_type.label}}
+    <div>{{don.food_type}}</div><br/>
+
+    {{don.price.label}}
+    <div>{{don.price}}</div><br/>
+
+    {{don.description.label}}
+    <div>{{don.description}}</div><br/>
+    
+    <input type="submit" value="submit">
+</form>
+
+
+
+
+
+

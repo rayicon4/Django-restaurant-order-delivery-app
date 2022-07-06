@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Mama's Kitchen | Gallery{% endblock %}
+
+
+{% block content %}
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+        <div class="container-fluid">
+  
+          <div class="section-title">
+            <h2>Some photos from <span>Our Restaurant</span></h2>
+            <p>These are some of our delicacies. It would amaze you that we have just the right thing for you to satisfy that desire.</p>
+          </div>
+
+  
+          <div class="row g-0">
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/semo_assorted.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/semo_assorted.jpg' %}" alt="" class="img-fluid">
+                  <h6>Semo and Assorted soup</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/eba.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/eba.jpg' %}" alt="" class="img-fluid">
+                  <h6>Well wrapped Eba</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/beans_plantain_fish.jpeg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/beans_plantain_fish.jpeg' %}" alt="" class="img-fluid">
+                  <h6>Beans and Plantain</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/fish_peppersoup.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/fish_peppersoup.jpg' %}" alt="" class="img-fluid">
+                  <h6>Fish PepperSoup</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/semo_vegetable_soup.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/semo_vegetable_soup.jpg' %}" alt="" class="img-fluid">
+                  <h6>Semo and Vegetable Soup</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/Okro_soup.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/Okro_soup.jpg' %}" alt="" class="img-fluid">
+                  <h6>Okro Soup</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/efo-riro.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/efo-riro.jpg' %}" alt="" class="img-fluid">
+                  <h6>Less Oil Efo-Riro</h6>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="{% static 'assets/img/gallery/fried_meat.jpg' %}" class="gallery-lightbox">
+                  <img src="{% static 'assets/img/gallery/fried_meat.jpg' %}" alt="" class="img-fluid">
+                  <h6>Rice and Assorted</h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Gallery Section -->
+
+{% endblock %}

@@ -1,0 +1,24 @@
+
+<h3>You can update existing menu here</h3>
+
+<form method="POST">
+    {% csrf_token %}
+    
+    <div>Food Type</div>
+    <div>{{viks.food_typea}}</div><br/>
+
+    <div>Price</div>
+    <div>{{viks.pricea}}</div><br/>
+
+    <div>Description</div>
+    <div>{{viks.descriptiona}}</div><br/>
+
+    <input type="submit" value="submit">
+
+</form>
+
+
+
+
+
+
